@@ -175,12 +175,13 @@ Format: `add n/COMPANY_NAME p/POSITION [pr/APPLICATION_PROCESS] [d/DATE] [ph/PHO
 * `PHONE` will be set to "NA" by default.
 * `EMAIL` will be set to "NA" by default.
 * `WEBSITE` will be set to “NA” by default. 
-* `WEBSITE` must start with `http://` or `https://`
-* `REMARK` will be empty by default.
-* `TAG` will be empty by default. All tags must be alphanumeric.
+* `WEBSITE` must start with `http://` or `https://`.
+* `REMARK` will be `-` by default.
+* `TAG` will be empty by default. 
+*  All tags must be alphanumeric.
 
 <div markdown="block" class="alert alert-success">
-**:bulb: Tip:** A person can have any number of tags (including 0)
+**:bulb: Tip:** An internship can have any number of tags (including 0)
 </div>
 
 Examples:

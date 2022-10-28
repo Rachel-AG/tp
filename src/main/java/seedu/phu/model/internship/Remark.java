@@ -7,7 +7,8 @@ import static java.util.Objects.requireNonNull;
  * Guarantees: immutable;
  */
 public class Remark {
-    public static final String DEFAULT_VALUE = "";
+    public static final String MESSAGE_CONSTRAINTS = "Remark should not be empty";
+    public static final String DEFAULT_VALUE = "-";
 
     public final String value;
 
@@ -19,6 +20,10 @@ public class Remark {
     public Remark(String remark) {
         requireNonNull(remark);
         value = remark;
+    }
+
+    public static boolean isValidRemark(String trimmedRemark) {
+        return !trimmedRemark.equals("");
     }
 
     @Override

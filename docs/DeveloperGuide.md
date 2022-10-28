@@ -829,7 +829,7 @@ testers are expected to do more *exploratory* testing.
    2. Test case: `add n/Google p/Backend Intern`<br>
       Expected: An internship application is added to PHU internship list, with company name `Google`, position `Backend Intern`,
       date being today's date (by default), application process `APPLIED` (by default), phone `NA` (by default),
-      email `NA` (by default), website `NA` (by default), and empty remark. A success message is shown with the details
+      email `NA` (by default), website `NA` (by default), and remark `-` (by default). A success message is shown with the details
       of the added internship. The entire application list is displayed.
 
    3. Test case: `add n/Google`<br>
